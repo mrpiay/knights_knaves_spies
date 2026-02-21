@@ -1,0 +1,3290 @@
+[
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "I am not a Spy",
+      "C": "I am a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "I am not a Spy",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "I am a Spy",
+      "C": "I am a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "I am a Spy",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "I am a Knave",
+      "C": "B is a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "I am a Knave",
+      "C": "B is not a Knight"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "I am a Knave",
+      "C": "A is a Spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "I am a Knave",
+      "C": "B is a Spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "I am a Knave",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "I am a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "A is a Spy",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "C is a Spy",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "A is a Knight",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "A is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "A is a Knight",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "C is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "C is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "A is not a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knight",
+      "B": "C is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am not a Spy",
+      "C": "A is not a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am not a Spy",
+      "C": "B is not a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am not a Spy",
+      "C": "A is a Spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am not a Spy",
+      "C": "B is a Spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am not a Spy",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am not a Spy",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am not a Spy",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am not a Spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am a Spy",
+      "C": "I am a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am a Spy",
+      "C": "B is a Spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am a Spy",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am a Spy",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am a Knave",
+      "C": "A is a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am a Knave",
+      "C": "B is a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am a Knave",
+      "C": "A is not a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am a Knave",
+      "C": "A is a Spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am a Knave",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "I am a Knave",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "A is a Knave",
+      "C": "B is a Spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "A is a Knave",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "A is a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "C is a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "A is not a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "A is not a Knight",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "C is not a Knight",
+      "C": "B is a Spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "C is not a Knight",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "C is not a Knight",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "C is not a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "C is not a Knight",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "A is a Spy",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "A is a Spy",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "C is a Spy",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "C is a Spy",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "C is a Spy",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "C is a Spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "A is a Knight",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "A is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "C is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "C is a Knight",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "C is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "C is not a Knave",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am not a Spy",
+      "B": "If you asked me, I would say that A is the spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "I am a Spy",
+      "C": "A is a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "I am a Spy",
+      "C": "B is a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "I am a Spy",
+      "C": "A is a Spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "I am a Spy",
+      "C": "B is a Spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "I am a Spy",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "I am a Spy",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "I am a Spy",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "I am a Spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "I am a Knave",
+      "C": "A is a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "I am a Knave",
+      "C": "A is not a Knight"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "I am a Knave",
+      "C": "B is not a Knight"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "I am a Knave",
+      "C": "B is a Spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "I am a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "I am a Knave",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "A is a Knave",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "A is a Knave",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "C is a Knave",
+      "C": "A is a Spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "C is a Knave",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "C is a Knave",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "C is a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "C is a Knave",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "A is not a Knight",
+      "C": "A is a Spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "A is not a Knight",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "A is not a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "C is not a Knight",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "A is a Spy",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "A is a Spy",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "A is a Spy",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "A is a Spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "C is a Spy",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "C is a Spy",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "A is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "A is a Knight",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "C is a Knight",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "C is a Knight",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "A is not a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "C is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Spy",
+      "B": "If you asked me, I would say that A is the spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "A is a Knave",
+      "C": "B is a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "A is a Knave",
+      "C": "A is not a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "A is a Knave",
+      "C": "B is not a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "A is a Knave",
+      "C": "A is a Spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "A is a Knave",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "A is a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "C is a Knave",
+      "C": "A is not a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "C is a Knave",
+      "C": "A is a Spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "C is a Knave",
+      "C": "B is a Spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "C is a Knave",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "C is a Knave",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "A is not a Knight",
+      "C": "B is not a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "A is not a Knight",
+      "C": "B is a Spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "A is not a Knight",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "A is not a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "C is not a Knight",
+      "C": "A is a Spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "C is not a Knight",
+      "C": "B is a Spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "C is not a Knight",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "C is not a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "A is a Spy",
+      "C": "B is a Spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "A is a Spy",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "A is a Spy",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "C is a Spy",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "C is a Spy",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "A is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "I am a Knave",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "C is a Knave",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "C is not a Knight",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "A is a Spy",
+      "C": "A is a Spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "A is a Spy",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "A is a Spy",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "C is a Spy",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "C is a Spy",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "A is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "A is a Knight",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "C is a Knight",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "C is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "C is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "A is not a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "C is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knave",
+      "B": "If you asked me, I would say that A is the spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "C is a Knave",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "C is a Knave",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "C is a Knave",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "C is a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "A is not a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "A is a Spy",
+      "C": "A is a Spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "A is a Spy",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "A is a Spy",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "A is a Spy",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "A is a Spy",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "C is a Spy",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "A is a Knight",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "A is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "A is a Knight",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "C is a Knight",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "C is a Knight",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "A is not a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knave",
+      "B": "C is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "C is not a Knight",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "A is a Spy",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "A is a Spy",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "C is a Spy",
+      "C": "B is a Spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "C is a Spy",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "C is a Spy",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "A is a Knight",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "A is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "C is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "C is a Knight",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "C is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "C is not a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "C is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knight",
+      "B": "If you asked me, I would say that A is the spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "C is not a Knight",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "C is not a Knight",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "C is not a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "C is not a Knight",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "A is a Spy",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "C is a Spy",
+      "C": "B is a Spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "C is a Spy",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "C is a Spy",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "C is a Spy",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "C is a Spy",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "A is a Knight",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "A is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "A is a Knight",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "C is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "C is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "A is not a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knight",
+      "B": "C is not a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "A is a Spy",
+      "C": "A is a Spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "A is a Spy",
+      "C": "B is a Spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "A is a Spy",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "A is a Spy",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "A is a Spy",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "A is a Spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "C is a Spy",
+      "C": "B is a Spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "C is a Spy",
+      "C": "A is a Knight"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "C is a Spy",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "A is a Knight",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "A is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "C is a Knight",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "C is a Knight",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "C is not a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "C is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Spy",
+      "B": "If you asked me, I would say that A is the spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "C is a Spy",
+      "C": "B is a Spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "C is a Spy",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "C is a Spy",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "C is a Spy",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "C is a Spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "A is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "A is a Knight",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "C is a Knight",
+      "C": "B is a Knight"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "C is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "C is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "A is not a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "C is not a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "C is not a Knave",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Spy",
+      "B": "If you asked me, I would say that A is the spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knight",
+      "B": "A is a Knight",
+      "C": "A is not a Knave"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knight",
+      "B": "A is a Knight",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knight",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knave",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knight",
+      "B": "A is a Knight",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knight",
+      "B": "C is a Knight",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knight",
+      "B": "C is a Knight",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knight",
+      "B": "A is not a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knight",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knight",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knight",
+      "B": "C is not a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knight",
+      "B": "C is not a Knave",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knight",
+      "B": "If you asked me, I would say that A is the spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is a Knight",
+      "B": "If you asked me, I would say that C is the spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Spy",
+      "C": "Knight"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knight",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knight",
+      "B": "C is not a Knave",
+      "C": "B is not a Knave"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knight",
+      "B": "C is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knight",
+      "B": "C is not a Knave",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is a Knight",
+      "B": "If you asked me, I would say that C is the spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knave",
+      "B": "Knight",
+      "C": "Spy"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knave",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that A is the spy"
+    },
+    "solution": {
+      "A": "Spy",
+      "B": "Knight",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knave",
+      "B": "A is not a Knave",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knave",
+      "B": "C is not a Knave",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knave",
+      "B": "If you asked me, I would say that A is the spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "B is not a Knave",
+      "B": "If you asked me, I would say that C is the spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Spy",
+      "C": "Knave"
+    }
+  },
+  {
+    "statements": {
+      "A": "C is not a Knave",
+      "B": "If you asked me, I would say that C is the spy",
+      "C": "If you asked me, I would say that B is the spy"
+    },
+    "solution": {
+      "A": "Knight",
+      "B": "Knave",
+      "C": "Spy"
+    }
+  }
+]

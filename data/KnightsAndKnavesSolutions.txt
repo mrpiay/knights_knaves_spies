@@ -1,0 +1,1667 @@
+This file describes the 274 unique knight/knave/spy puzzles with one unique solution, i.e., a valid form of the puzzle
+
+A puzzle is defined by the statements of three people. Out of those three
+people, one is a knight who always tells the truth, one is a knave who
+always lies, and one is a spy who can either lie or tell the truth.
+
+If there is no assignment of knight knave spy which is valid, the puzzle
+is a paradox. If there is more than one assignment which is valid, the puzzle
+has no unique solution. If there is only one valid assignment, the puzzle
+is a valid form of the puzzle.
+
+Each puzzle is represented by the statements of the three people, and the list of all possible valid
+assignments, Where F=Knave, T=Knight, S=Spy. For example, FTS means that the first person could be a
+knave, the second person could be a knight, and the third person could be the spy. Similarly SFT means
+the first person could be a spy, the second person could be a knave, and the third person could be a knight.
+An empty line after the puzzle means there is no valid assignment.
+
+Obvious examples of symmetry is eliminated in this list, for example if the puzzle where A and B claim to be the knight and C claims to be the spy is included, the puzzle where A and C claim to be the knight and B claims to be the spy would not be included, since it's isomorphic to the previous problem.
+
+Please don't link this file directly and provide credit to Mark Newheiser at  
+http://newheiser.googlepages.com/knightsandknaves
+
+A: I am a Knight
+B: I am not a Spy
+C: I am a Knave
+
+FTS
+
+A: I am a Knight
+B: I am not a Spy
+C: A is not a Knave
+
+FTS
+
+A: I am a Knight
+B: I am a Spy
+C: I am a Knave
+
+TFS
+
+A: I am a Knight
+B: I am a Spy
+C: A is a Knight
+
+TFS
+
+A: I am a Knight
+B: I am a Knave
+C: B is a Knave
+
+TSF
+
+A: I am a Knight
+B: I am a Knave
+C: B is not a Knight
+
+FST
+
+A: I am a Knight
+B: I am a Knave
+C: A is a Spy
+
+TSF
+
+A: I am a Knight
+B: I am a Knave
+C: B is a Spy
+
+FST
+
+A: I am a Knight
+B: I am a Knave
+C: B is a Knight
+
+TSF
+
+A: I am a Knight
+B: I am a Knave
+C: B is not a Knave
+
+FST
+
+A: I am a Knight
+B: A is a Spy
+C: A is not a Knave
+
+TFS
+
+A: I am a Knight
+B: C is a Spy
+C: A is a Knight
+
+FTS
+
+A: I am a Knight
+B: A is a Knight
+C: B is a Knight
+
+TSF
+
+A: I am a Knight
+B: A is a Knight
+C: A is not a Knave
+
+SFT
+
+A: I am a Knight
+B: A is a Knight
+C: B is not a Knave
+
+FST
+
+A: I am a Knight
+B: A is a Knight
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: I am a Knight
+B: C is a Knight
+C: A is not a Knave
+
+TFS
+
+A: I am a Knight
+B: C is a Knight
+C: If you asked me, I would say that A is the spy
+
+TFS
+
+A: I am a Knight
+B: A is not a Knave
+C: B is not a Knave
+
+FST
+
+A: I am a Knight
+B: A is not a Knave
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: I am a Knight
+B: C is not a Knave
+C: If you asked me, I would say that A is the spy
+
+FTS
+
+A: I am not a Spy
+B: I am not a Spy
+C: A is not a Knight
+
+TSF
+
+A: I am not a Spy
+B: I am not a Spy
+C: B is not a Knight
+
+STF
+
+A: I am not a Spy
+B: I am not a Spy
+C: A is a Spy
+
+TSF
+
+A: I am not a Spy
+B: I am not a Spy
+C: B is a Spy
+
+STF
+
+A: I am not a Spy
+B: I am not a Spy
+C: A is a Knight
+
+STF
+
+A: I am not a Spy
+B: I am not a Spy
+C: B is a Knight
+
+TSF
+
+A: I am not a Spy
+B: I am not a Spy
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: I am not a Spy
+B: I am not a Spy
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: I am not a Spy
+B: I am a Spy
+C: I am a Knave
+
+TFS
+
+A: I am not a Spy
+B: I am a Spy
+C: B is a Spy
+
+TFS
+
+A: I am not a Spy
+B: I am a Spy
+C: A is a Knight
+
+TFS
+
+A: I am not a Spy
+B: I am a Spy
+C: B is not a Knave
+
+TFS
+
+A: I am not a Spy
+B: I am a Knave
+C: A is a Knave
+
+TSF
+
+A: I am not a Spy
+B: I am a Knave
+C: B is a Knave
+
+TSF
+
+A: I am not a Spy
+B: I am a Knave
+C: A is not a Knight
+
+TSF
+
+A: I am not a Spy
+B: I am a Knave
+C: A is a Spy
+
+TSF
+
+A: I am not a Spy
+B: I am a Knave
+C: B is a Knight
+
+TSF
+
+A: I am not a Spy
+B: I am a Knave
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: I am not a Spy
+B: A is a Knave
+C: B is a Spy
+
+TFS
+
+A: I am not a Spy
+B: A is a Knave
+C: A is a Knight
+
+TFS
+
+A: I am not a Spy
+B: A is a Knave
+C: B is not a Knave
+
+TFS
+
+A: I am not a Spy
+B: C is a Knave
+C: B is not a Knave
+
+TFS
+
+A: I am not a Spy
+B: A is not a Knight
+C: A is not a Knave
+
+TFS
+
+A: I am not a Spy
+B: A is not a Knight
+C: B is not a Knave
+
+TFS
+
+A: I am not a Spy
+B: C is not a Knight
+C: B is a Spy
+
+STF
+
+A: I am not a Spy
+B: C is not a Knight
+C: A is a Knight
+
+STF
+
+A: I am not a Spy
+B: C is not a Knight
+C: B is a Knight
+
+TSF
+
+A: I am not a Spy
+B: C is not a Knight
+C: A is not a Knave
+
+SFT
+
+A: I am not a Spy
+B: C is not a Knight
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: I am not a Spy
+B: A is a Spy
+C: A is not a Knave
+
+TFS
+
+A: I am not a Spy
+B: A is a Spy
+C: B is not a Knave
+
+TFS
+
+A: I am not a Spy
+B: C is a Spy
+C: B is a Knight
+
+TSF
+
+A: I am not a Spy
+B: C is a Spy
+C: A is not a Knave
+
+SFT
+
+A: I am not a Spy
+B: C is a Spy
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: I am not a Spy
+B: C is a Spy
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: I am not a Spy
+B: A is a Knight
+C: B is a Knight
+
+TSF
+
+A: I am not a Spy
+B: A is a Knight
+C: A is not a Knave
+
+SFT
+
+A: I am not a Spy
+B: A is a Knight
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: I am not a Spy
+B: A is a Knight
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: I am not a Spy
+B: C is a Knight
+C: A is not a Knave
+
+TFS
+
+A: I am not a Spy
+B: C is a Knight
+C: B is not a Knave
+
+TFS
+
+A: I am not a Spy
+B: C is a Knight
+C: If you asked me, I would say that A is the spy
+
+TFS
+
+A: I am not a Spy
+B: A is not a Knave
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: I am not a Spy
+B: A is not a Knave
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: I am not a Spy
+B: C is not a Knave
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: I am not a Spy
+B: If you asked me, I would say that A is the spy
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: I am a Spy
+B: I am a Spy
+C: A is a Knave
+
+FST
+
+A: I am a Spy
+B: I am a Spy
+C: B is a Knave
+
+SFT
+
+A: I am a Spy
+B: I am a Spy
+C: A is a Spy
+
+SFT
+
+A: I am a Spy
+B: I am a Spy
+C: B is a Spy
+
+FST
+
+A: I am a Spy
+B: I am a Spy
+C: A is not a Knave
+
+SFT
+
+A: I am a Spy
+B: I am a Spy
+C: B is not a Knave
+
+FST
+
+A: I am a Spy
+B: I am a Spy
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: I am a Spy
+B: I am a Spy
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: I am a Spy
+B: I am a Knave
+C: A is a Knave
+
+FST
+
+A: I am a Spy
+B: I am a Knave
+C: A is not a Knight
+
+FST
+
+A: I am a Spy
+B: I am a Knave
+C: B is not a Knight
+
+FST
+
+A: I am a Spy
+B: I am a Knave
+C: B is a Spy
+
+FST
+
+A: I am a Spy
+B: I am a Knave
+C: B is not a Knave
+
+FST
+
+A: I am a Spy
+B: I am a Knave
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: I am a Spy
+B: A is a Knave
+C: A is a Knight
+
+FTS
+
+A: I am a Spy
+B: A is a Knave
+C: B is a Knight
+
+FTS
+
+A: I am a Spy
+B: C is a Knave
+C: A is a Spy
+
+SFT
+
+A: I am a Spy
+B: C is a Knave
+C: A is a Knight
+
+STF
+
+A: I am a Spy
+B: C is a Knave
+C: A is not a Knave
+
+SFT
+
+A: I am a Spy
+B: C is a Knave
+C: B is not a Knave
+
+FST
+
+A: I am a Spy
+B: C is a Knave
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: I am a Spy
+B: A is not a Knight
+C: A is a Spy
+
+FTS
+
+A: I am a Spy
+B: A is not a Knight
+C: B is a Knight
+
+FTS
+
+A: I am a Spy
+B: A is not a Knight
+C: A is not a Knave
+
+FTS
+
+A: I am a Spy
+B: C is not a Knight
+C: B is a Knight
+
+FTS
+
+A: I am a Spy
+B: A is a Spy
+C: A is a Knight
+
+STF
+
+A: I am a Spy
+B: A is a Spy
+C: B is not a Knave
+
+FST
+
+A: I am a Spy
+B: A is a Spy
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: I am a Spy
+B: A is a Spy
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: I am a Spy
+B: C is a Spy
+C: A is a Knight
+
+FTS
+
+A: I am a Spy
+B: C is a Spy
+C: B is a Knight
+
+FTS
+
+A: I am a Spy
+B: A is a Knight
+C: A is not a Knave
+
+SFT
+
+A: I am a Spy
+B: A is a Knight
+C: B is not a Knave
+
+FST
+
+A: I am a Spy
+B: A is a Knight
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: I am a Spy
+B: A is a Knight
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: I am a Spy
+B: C is a Knight
+C: B is not a Knave
+
+FST
+
+A: I am a Spy
+B: C is a Knight
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: I am a Spy
+B: A is not a Knave
+C: B is not a Knave
+
+FST
+
+A: I am a Spy
+B: A is not a Knave
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: I am a Spy
+B: A is not a Knave
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: I am a Spy
+B: C is not a Knave
+C: If you asked me, I would say that A is the spy
+
+FTS
+
+A: I am a Spy
+B: If you asked me, I would say that A is the spy
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: I am a Knave
+B: A is a Knave
+C: B is a Knave
+
+SFT
+
+A: I am a Knave
+B: A is a Knave
+C: A is not a Knight
+
+SFT
+
+A: I am a Knave
+B: A is a Knave
+C: B is not a Knight
+
+SFT
+
+A: I am a Knave
+B: A is a Knave
+C: A is a Spy
+
+SFT
+
+A: I am a Knave
+B: A is a Knave
+C: A is not a Knave
+
+SFT
+
+A: I am a Knave
+B: A is a Knave
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: I am a Knave
+B: C is a Knave
+C: A is not a Knight
+
+SFT
+
+A: I am a Knave
+B: C is a Knave
+C: A is a Spy
+
+SFT
+
+A: I am a Knave
+B: C is a Knave
+C: B is a Spy
+
+STF
+
+A: I am a Knave
+B: C is a Knave
+C: A is a Knight
+
+STF
+
+A: I am a Knave
+B: C is a Knave
+C: A is not a Knave
+
+SFT
+
+A: I am a Knave
+B: A is not a Knight
+C: B is not a Knight
+
+STF
+
+A: I am a Knave
+B: A is not a Knight
+C: B is a Spy
+
+STF
+
+A: I am a Knave
+B: A is not a Knight
+C: A is a Knight
+
+STF
+
+A: I am a Knave
+B: A is not a Knight
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: I am a Knave
+B: C is not a Knight
+C: A is a Spy
+
+SFT
+
+A: I am a Knave
+B: C is not a Knight
+C: B is a Spy
+
+STF
+
+A: I am a Knave
+B: C is not a Knight
+C: A is a Knight
+
+STF
+
+A: I am a Knave
+B: C is not a Knight
+C: A is not a Knave
+
+SFT
+
+A: I am a Knave
+B: A is a Spy
+C: B is a Spy
+
+STF
+
+A: I am a Knave
+B: A is a Spy
+C: A is a Knight
+
+STF
+
+A: I am a Knave
+B: A is a Spy
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: I am a Knave
+B: C is a Spy
+C: A is not a Knave
+
+SFT
+
+A: I am a Knave
+B: C is a Spy
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: I am a Knave
+B: A is a Knight
+C: A is not a Knave
+
+SFT
+
+A: I am a Knave
+B: A is a Knight
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: I am a Knave
+B: A is not a Knave
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: B is a Knave
+B: C is a Knave
+C: B is a Knight
+
+TFS
+
+A: B is a Knave
+B: C is not a Knight
+C: B is a Knight
+
+FTS
+
+A: B is a Knave
+B: A is a Spy
+C: A is a Spy
+
+TFS
+
+A: B is a Knave
+B: A is a Spy
+C: B is a Knight
+
+TFS
+
+A: B is a Knave
+B: A is a Spy
+C: A is not a Knave
+
+TFS
+
+A: B is a Knave
+B: C is a Spy
+C: A is a Knight
+
+FTS
+
+A: B is a Knave
+B: C is a Spy
+C: B is a Knight
+
+FTS
+
+A: B is a Knave
+B: A is a Knight
+C: A is not a Knave
+
+SFT
+
+A: B is a Knave
+B: A is a Knight
+C: B is not a Knave
+
+FST
+
+A: B is a Knave
+B: A is a Knight
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: B is a Knave
+B: A is a Knight
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: B is a Knave
+B: C is a Knight
+C: B is a Knight
+
+TFS
+
+A: B is a Knave
+B: C is a Knight
+C: A is not a Knave
+
+TFS
+
+A: B is a Knave
+B: C is a Knight
+C: If you asked me, I would say that A is the spy
+
+TFS
+
+A: B is a Knave
+B: A is not a Knave
+C: B is not a Knave
+
+FST
+
+A: B is a Knave
+B: A is not a Knave
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: B is a Knave
+B: A is not a Knave
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: B is a Knave
+B: C is not a Knave
+C: If you asked me, I would say that A is the spy
+
+FTS
+
+A: B is a Knave
+B: If you asked me, I would say that A is the spy
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: C is a Knave
+B: C is a Knave
+C: A is a Knight
+
+STF
+
+A: C is a Knave
+B: C is a Knave
+C: B is a Knight
+
+TSF
+
+A: C is a Knave
+B: C is a Knave
+C: A is not a Knave
+
+SFT
+
+A: C is a Knave
+B: C is a Knave
+C: B is not a Knave
+
+FST
+
+A: C is a Knave
+B: A is not a Knight
+C: A is not a Knave
+
+FTS
+
+A: C is a Knave
+B: A is a Spy
+C: A is a Spy
+
+TSF
+
+A: C is a Knave
+B: A is a Spy
+C: A is a Knight
+
+STF
+
+A: C is a Knave
+B: A is a Spy
+C: B is a Knight
+
+TSF
+
+A: C is a Knave
+B: A is a Spy
+C: B is not a Knave
+
+FST
+
+A: C is a Knave
+B: A is a Spy
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: C is a Knave
+B: C is a Spy
+C: A is a Knight
+
+FTS
+
+A: C is a Knave
+B: A is a Knight
+C: B is a Knight
+
+TSF
+
+A: C is a Knave
+B: A is a Knight
+C: A is not a Knave
+
+SFT
+
+A: C is a Knave
+B: A is a Knight
+C: B is not a Knave
+
+FST
+
+A: C is a Knave
+B: A is a Knight
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: C is a Knave
+B: C is a Knight
+C: B is a Knight
+
+TSF
+
+A: C is a Knave
+B: C is a Knight
+C: B is not a Knave
+
+FST
+
+A: C is a Knave
+B: A is not a Knave
+C: B is not a Knave
+
+FST
+
+A: C is a Knave
+B: A is not a Knave
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: C is a Knave
+B: C is not a Knave
+C: If you asked me, I would say that A is the spy
+
+FTS
+
+A: B is not a Knight
+B: C is not a Knight
+C: B is not a Knave
+
+FTS
+
+A: B is not a Knight
+B: A is a Spy
+C: A is not a Knave
+
+TFS
+
+A: B is not a Knight
+B: A is a Spy
+C: B is not a Knave
+
+TFS
+
+A: B is not a Knight
+B: C is a Spy
+C: B is a Spy
+
+FTS
+
+A: B is not a Knight
+B: C is a Spy
+C: A is a Knight
+
+FTS
+
+A: B is not a Knight
+B: C is a Spy
+C: B is not a Knave
+
+FTS
+
+A: B is not a Knight
+B: A is a Knight
+C: B is a Knight
+
+TSF
+
+A: B is not a Knight
+B: A is a Knight
+C: A is not a Knave
+
+SFT
+
+A: B is not a Knight
+B: A is a Knight
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: B is not a Knight
+B: A is a Knight
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: B is not a Knight
+B: C is a Knight
+C: A is not a Knave
+
+TFS
+
+A: B is not a Knight
+B: C is a Knight
+C: B is not a Knave
+
+TFS
+
+A: B is not a Knight
+B: C is a Knight
+C: If you asked me, I would say that A is the spy
+
+TFS
+
+A: B is not a Knight
+B: A is not a Knave
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: B is not a Knight
+B: A is not a Knave
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: B is not a Knight
+B: C is not a Knave
+C: B is not a Knave
+
+FTS
+
+A: B is not a Knight
+B: C is not a Knave
+C: If you asked me, I would say that A is the spy
+
+FTS
+
+A: B is not a Knight
+B: If you asked me, I would say that A is the spy
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: C is not a Knight
+B: C is not a Knight
+C: A is a Knight
+
+STF
+
+A: C is not a Knight
+B: C is not a Knight
+C: B is a Knight
+
+TSF
+
+A: C is not a Knight
+B: C is not a Knight
+C: A is not a Knave
+
+SFT
+
+A: C is not a Knight
+B: C is not a Knight
+C: B is not a Knave
+
+FST
+
+A: C is not a Knight
+B: A is a Spy
+C: A is not a Knave
+
+TFS
+
+A: C is not a Knight
+B: C is a Spy
+C: B is a Spy
+
+FST
+
+A: C is not a Knight
+B: C is a Spy
+C: B is a Knight
+
+TSF
+
+A: C is not a Knight
+B: C is a Spy
+C: A is not a Knave
+
+SFT
+
+A: C is not a Knight
+B: C is a Spy
+C: B is not a Knave
+
+FST
+
+A: C is not a Knight
+B: C is a Spy
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: C is not a Knight
+B: A is a Knight
+C: B is a Knight
+
+TSF
+
+A: C is not a Knight
+B: A is a Knight
+C: A is not a Knave
+
+SFT
+
+A: C is not a Knight
+B: A is a Knight
+C: B is not a Knave
+
+FST
+
+A: C is not a Knight
+B: A is a Knight
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: C is not a Knight
+B: C is a Knight
+C: A is not a Knave
+
+TFS
+
+A: C is not a Knight
+B: C is a Knight
+C: If you asked me, I would say that A is the spy
+
+TFS
+
+A: C is not a Knight
+B: A is not a Knave
+C: B is not a Knave
+
+FST
+
+A: C is not a Knight
+B: A is not a Knave
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: C is not a Knight
+B: C is not a Knave
+C: B is not a Knave
+
+FST
+
+A: B is a Spy
+B: A is a Spy
+C: A is a Spy
+
+TSF
+
+A: B is a Spy
+B: A is a Spy
+C: B is a Spy
+
+STF
+
+A: B is a Spy
+B: A is a Spy
+C: A is a Knight
+
+STF
+
+A: B is a Spy
+B: A is a Spy
+C: B is a Knight
+
+TSF
+
+A: B is a Spy
+B: A is a Spy
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: B is a Spy
+B: A is a Spy
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: B is a Spy
+B: C is a Spy
+C: B is a Spy
+
+FTS
+
+A: B is a Spy
+B: C is a Spy
+C: A is a Knight
+
+FTS
+
+A: B is a Spy
+B: C is a Spy
+C: B is not a Knave
+
+FTS
+
+A: B is a Spy
+B: A is a Knight
+C: B is a Knight
+
+TSF
+
+A: B is a Spy
+B: A is a Knight
+C: A is not a Knave
+
+SFT
+
+A: B is a Spy
+B: A is a Knight
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: B is a Spy
+B: A is a Knight
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: B is a Spy
+B: C is a Knight
+C: B is a Knight
+
+TSF
+
+A: B is a Spy
+B: C is a Knight
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: B is a Spy
+B: A is not a Knave
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: B is a Spy
+B: A is not a Knave
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: B is a Spy
+B: C is not a Knave
+C: B is not a Knave
+
+FTS
+
+A: B is a Spy
+B: C is not a Knave
+C: If you asked me, I would say that A is the spy
+
+FTS
+
+A: B is a Spy
+B: If you asked me, I would say that A is the spy
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: C is a Spy
+B: C is a Spy
+C: B is a Spy
+
+FST
+
+A: C is a Spy
+B: C is a Spy
+C: A is not a Knave
+
+SFT
+
+A: C is a Spy
+B: C is a Spy
+C: B is not a Knave
+
+FST
+
+A: C is a Spy
+B: C is a Spy
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: C is a Spy
+B: C is a Spy
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: C is a Spy
+B: A is a Knight
+C: A is not a Knave
+
+SFT
+
+A: C is a Spy
+B: A is a Knight
+C: B is not a Knave
+
+FST
+
+A: C is a Spy
+B: A is a Knight
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: C is a Spy
+B: A is a Knight
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: C is a Spy
+B: C is a Knight
+C: B is a Knight
+
+TFS
+
+A: C is a Spy
+B: C is a Knight
+C: A is not a Knave
+
+TFS
+
+A: C is a Spy
+B: C is a Knight
+C: If you asked me, I would say that A is the spy
+
+TFS
+
+A: C is a Spy
+B: A is not a Knave
+C: B is not a Knave
+
+FST
+
+A: C is a Spy
+B: A is not a Knave
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: C is a Spy
+B: A is not a Knave
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: C is a Spy
+B: C is not a Knave
+C: B is not a Knave
+
+FST
+
+A: C is a Spy
+B: C is not a Knave
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: C is a Spy
+B: If you asked me, I would say that A is the spy
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: B is a Knight
+B: A is a Knight
+C: A is not a Knave
+
+SFT
+
+A: B is a Knight
+B: A is a Knight
+C: B is not a Knave
+
+FST
+
+A: B is a Knight
+B: A is a Knight
+C: If you asked me, I would say that A is the spy
+
+SFT
+
+A: B is a Knight
+B: A is a Knight
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: B is a Knight
+B: C is a Knight
+C: B is not a Knave
+
+FST
+
+A: B is a Knight
+B: C is a Knight
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: B is a Knight
+B: A is not a Knave
+C: B is not a Knave
+
+FST
+
+A: B is a Knight
+B: A is not a Knave
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: B is a Knight
+B: A is not a Knave
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: B is a Knight
+B: C is not a Knave
+C: B is not a Knave
+
+FST
+
+A: B is a Knight
+B: C is not a Knave
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: B is a Knight
+B: If you asked me, I would say that A is the spy
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: B is a Knight
+B: If you asked me, I would say that C is the spy
+C: If you asked me, I would say that B is the spy
+
+FST
+
+A: C is a Knight
+B: A is not a Knave
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: C is a Knight
+B: C is not a Knave
+C: B is not a Knave
+
+FTS
+
+A: C is a Knight
+B: C is not a Knave
+C: If you asked me, I would say that A is the spy
+
+FTS
+
+A: C is a Knight
+B: C is not a Knave
+C: If you asked me, I would say that B is the spy
+
+FTS
+
+A: C is a Knight
+B: If you asked me, I would say that C is the spy
+C: If you asked me, I would say that B is the spy
+
+FTS
+
+A: B is not a Knave
+B: A is not a Knave
+C: If you asked me, I would say that A is the spy
+
+STF
+
+A: B is not a Knave
+B: A is not a Knave
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: B is not a Knave
+B: C is not a Knave
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: B is not a Knave
+B: If you asked me, I would say that A is the spy
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: B is not a Knave
+B: If you asked me, I would say that C is the spy
+C: If you asked me, I would say that B is the spy
+
+TSF
+
+A: C is not a Knave
+B: If you asked me, I would say that C is the spy
+C: If you asked me, I would say that B is the spy
+
+TFS
+
+7012
