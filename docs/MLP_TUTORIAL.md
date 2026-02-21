@@ -46,7 +46,7 @@ Input layer     Hidden layer 1    Hidden layer 2    Output layer
 
   x₁ ──┐
   x₂ ──┼──► [W₁, b₁] ──► ReLU ──► [W₂, b₂] ──► ReLU ──► [W₃, b₃] ──► Softmax ──► ŷ
-  ...  ─┘
+  ... ─┘
   x₆₆─┘
 ```
 
