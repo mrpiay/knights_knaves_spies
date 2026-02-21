@@ -1663,5 +1663,3 @@ B: If you asked me, I would say that C is the spy
 C: If you asked me, I would say that B is the spy
 
 TFS
-
-7012
