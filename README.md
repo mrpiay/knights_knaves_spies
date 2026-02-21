@@ -192,7 +192,7 @@ This model learns purely from **correlations in the data** — it does not know 
 ## Running the Code
 
 ```bash
-git clone https://github.com/your-username/knights_knaves_spies.git
+git clone https://github.com/mrpiay/knights_knaves_spies.git
 cd knights_knaves_spies
 pip install -r requirements.txt
 ```
